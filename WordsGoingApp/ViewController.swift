@@ -3,7 +3,7 @@
 //  WordsGoingApp
 //
 //  Created by Scholar on 7/19/22.
-//
+// HEY TEAM! LET'S START UWU
 
 import UIKit
 
