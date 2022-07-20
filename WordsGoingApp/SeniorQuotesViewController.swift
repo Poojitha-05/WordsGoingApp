@@ -9,12 +9,16 @@ import UIKit
 
 class SeniorQuotesViewController: UIViewController {
 
-  
+    @IBOutlet weak var lavenderImage: UIImageView!
+    
+    @IBOutlet weak var lavenderImage2: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        lavenderImage.alpha = 0.4
+        lavenderImage2.alpha = 0.4
         // Do any additional setup after loading the view.
     }
+    
     
 
     /*

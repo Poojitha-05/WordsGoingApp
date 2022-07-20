@@ -9,9 +9,13 @@ import UIKit
 
 class NavigatorPageViewController: UIViewController {
 
+    @IBOutlet weak var flowerImage2: UIImageView!
+    @IBOutlet weak var flowerImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        flowerImage.alpha = 0.4
+        flowerImage2.alpha = 0.4
         // Do any additional setup after loading the view.
     }
     

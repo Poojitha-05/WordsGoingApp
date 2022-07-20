@@ -8,10 +8,11 @@
 import UIKit
 
 class PackagePageViewController: UIViewController {
-
+    @IBOutlet weak var flowerImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        flowerImage.alpha = 0.4
         // Do any additional setup after loading the view.
     }
     

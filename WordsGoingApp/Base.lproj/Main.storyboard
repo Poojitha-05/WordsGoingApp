@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CBr-rM-l8f">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3W2-GG-s1G">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -100,6 +100,9 @@
                                         <integer key="value" value="22"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="CtN-u5-I0C" kind="show" id="ZJw-g2-kKO"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="W-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="8ji-Mj-5z1">
                                 <rect key="frame" x="22" y="65" width="376" height="345"/>
@@ -112,18 +115,18 @@
                         <color key="backgroundColor" red="0.9098039269" green="0.85882353779999998" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="lavenderImage" destination="cnl-WG-A6R" id="gAZ-r1-5yB"/>
-                        <outlet property="lavenderImage2" destination="J0l-mP-A3A" id="PJl-FT-ln9"/>
+                        <outlet property="lavenderImage" destination="cnl-WG-A6R" id="GZB-jR-Yo2"/>
+                        <outlet property="lavenderImage2" destination="J0l-mP-A3A" id="YbI-Ue-GGa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bcu-kK-h97" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="1"/>
+            <point key="canvasLocation" x="-259" y="71"/>
         </scene>
         <!--Senior Quotes View Controller-->
         <scene sceneID="3G1-OC-jqk">
             <objects>
-                <viewController id="HVU-7a-Osy" customClass="SeniorQuotesViewController" customModule="WordsGoingApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="HVU-7a-Osy" customClass="SeniorQuotesViewController" customModule="WordsGoingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Z5Q-KL-p22">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -331,25 +334,30 @@
                         <viewLayoutGuide key="safeArea" id="k7h-vM-n6k"/>
                         <color key="backgroundColor" red="0.9098039269" green="0.85882353779999998" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="h3Z-Ei-uNC"/>
                     <connections>
-                        <outlet property="lavenderImage" destination="ESZ-Aq-mYL" id="ymh-lC-ove"/>
-                        <outlet property="lavenderImage2" destination="LEp-9c-OiJ" id="tlr-Fa-g7t"/>
+                        <outlet property="lavenderImage" destination="ESZ-Aq-mYL" id="YSl-gk-g5i"/>
+                        <outlet property="lavenderImage2" destination="LEp-9c-OiJ" id="3Cj-zl-13T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IpD-uI-Zed" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="120" y="823"/>
+            <point key="canvasLocation" x="1287" y="735"/>
         </scene>
         <!--Navigator Page View Controller-->
         <scene sceneID="KV6-eC-LDB">
             <objects>
-                <viewController id="jqZ-Mv-9k1" customClass="NavigatorPageViewController" customModule="WordsGoingApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="jqZ-Mv-9k1" customClass="NavigatorPageViewController" customModule="WordsGoingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oYx-4S-0dU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uU5-Fe-oHm">
-                                <rect key="frame" x="20" y="95" width="412" height="172"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pngtree-collection-of-premium-vintage-scrapbook-paper-watercolor-in-purple-theme-printable-png-image_3755795-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="nP5-zs-Ghl">
+                                <rect key="frame" x="20" y="51" width="415" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="64d2123d6004907e4341236390ef5b64-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="Myj-Yf-sEo">
+                                <rect key="frame" x="-16" y="477" width="268" height="450"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Class of 2023:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tkg-in-0Vg">
@@ -466,6 +474,9 @@
                                         <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="HVU-7a-Osy" kind="show" id="GAm-rd-lNV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgB-Te-jPA">
                                 <rect key="frame" x="52" y="663" width="132" height="129"/>
@@ -480,6 +491,9 @@
                                         <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="b3E-wv-Gm7" kind="show" id="kIh-Ec-h29"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6H-FW-eoc">
                                 <rect key="frame" x="228" y="316" width="132" height="129"/>
@@ -508,6 +522,9 @@
                                         <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="CBr-rM-l8f" kind="show" id="hHT-Wo-u36"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPH-zV-J7K">
                                 <rect key="frame" x="228" y="663" width="132" height="129"/>
@@ -530,26 +547,39 @@
                                 <color key="textColor" red="0.57757447470000001" green="0.49288898920000002" blue="0.44297850859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="64d2123d6004907e4341236390ef5b64-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="ZzR-8i-pJ7">
+                                <rect key="frame" x="-4" y="349" width="268" height="450"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="l9f-iI-cdS"/>
                         <color key="backgroundColor" red="0.9098039269" green="0.86274516580000005" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.9098039269" green="0.86274516580000005" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="aoA-XW-cqB"/>
+                    <connections>
+                        <outlet property="flowerImage" destination="Myj-Yf-sEo" id="Adj-09-b0s"/>
+                        <outlet property="flowerImage2" destination="ZzR-8i-pJ7" id="kPl-ac-U2w"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Awr-70-R4J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1696" y="25"/>
+            <point key="canvasLocation" x="1288" y="71"/>
         </scene>
         <!--Package Page View Controller-->
         <scene sceneID="CK7-PN-egg">
             <objects>
-                <viewController id="CtN-u5-I0C" customClass="PackagePageViewController" customModule="WordsGoingApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="CtN-u5-I0C" customClass="PackagePageViewController" customModule="WordsGoingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H9p-cs-Idf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5-53347_flower-vintage-flowers-garden-brown-gold-nature-free-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="N0a-Gw-Fd1">
+                                <rect key="frame" x="-149" y="3" width="463" height="259"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eyy-Du-kvc">
-                                <rect key="frame" x="41" y="291" width="332" height="144"/>
+                                <rect key="frame" x="41" y="307" width="332" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -560,7 +590,7 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9EV-EM-UVp">
-                                <rect key="frame" x="41" y="469" width="332" height="144"/>
+                                <rect key="frame" x="41" y="485" width="332" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -571,7 +601,7 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kbf-Tx-2Yl">
-                                <rect key="frame" x="41" y="642" width="332" height="144"/>
+                                <rect key="frame" x="41" y="658" width="332" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -582,25 +612,25 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pngtree-scrapbook-paper-texture-rustic-and-vintage-for-decoration-background-png-image_6536015-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="T7v-RN-TXg">
-                                <rect key="frame" x="-1" y="82" width="417" height="156"/>
+                                <rect key="frame" x="-1" y="106" width="417" height="156"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Packages" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ErK-4F-GS2">
-                                <rect key="frame" x="96" y="95" width="223" height="69"/>
+                                <rect key="frame" x="88" y="121" width="223" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="58"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Pre-made sets of photo templates, journal entries, bucket lists, etc. that will turn into a scrapbook." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uIO-74-3Jg">
-                                <rect key="frame" x="15" y="218" width="384" height="83"/>
+                                <rect key="frame" x="15" y="241" width="384" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.57757447470000001" green="0.49288898920000002" blue="0.44297850859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="NotoSansKannada-Bold" family="Noto Sans Kannada" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvL-y8-mJX">
-                                <rect key="frame" x="54" y="656" width="307" height="117"/>
+                                <rect key="frame" x="54" y="672" width="307" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Wedding Proposal">
@@ -614,7 +644,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KQd-0w-H2l">
-                                <rect key="frame" x="54" y="483" width="307" height="117"/>
+                                <rect key="frame" x="54" y="499" width="307" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Year Overview">
@@ -628,7 +658,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kaL-pG-eFJ">
-                                <rect key="frame" x="54" y="305" width="307" height="117"/>
+                                <rect key="frame" x="54" y="321" width="307" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Senior Year">
@@ -640,25 +670,28 @@
                                         <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="jqZ-Mv-9k1" kind="show" id="SXN-c0-IPN"/>
+                                </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5-53347_flower-vintage-flowers-garden-brown-gold-nature-free-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="N0a-Gw-Fd1">
-                                <rect key="frame" x="-149" y="0.0" width="463" height="259"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1Pp-8d-u6o"/>
                         <color key="backgroundColor" red="0.9098039269" green="0.86274516580000005" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.9098039269" green="0.86274516580000005" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="UUW-1m-KtI"/>
+                    <connections>
+                        <outlet property="flowerImage" destination="N0a-Gw-Fd1" id="zF8-pe-R8h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dfc-Ti-m2N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="807" y="26"/>
+            <point key="canvasLocation" x="543" y="71"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mlO-I9-PEn">
             <objects>
-                <viewController id="CBr-rM-l8f" customClass="ViewController" customModule="journalEntries" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="CBr-rM-l8f" customClass="ViewController" customModule="WordsGoingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aop-R9-bWF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -708,15 +741,16 @@
                         <viewLayoutGuide key="safeArea" id="YSn-pN-Hr3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="89O-7N-raV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N3I-tH-EpU" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14" y="-627"/>
+            <point key="canvasLocation" x="2333" y="91"/>
         </scene>
         <!--View Controllerpagetwo-->
         <scene sceneID="xAA-iH-yK8">
             <objects>
-                <viewController id="YeM-3c-Qbr" customClass="ViewControllerpagetwo" customModule="journalEntries" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="YeM-3c-Qbr" customClass="ViewControllerpagetwo" customModule="WordsGoingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eKH-NB-nhp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -790,7 +824,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aJP-CA-KcI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="911.59420289855075" y="-627.45535714285711"/>
+            <point key="canvasLocation" x="3109" y="90"/>
         </scene>
         <!--Journal Entry View Controller-->
         <scene sceneID="wU3-Kp-ZLg">
@@ -827,12 +861,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gD8-VI-QGB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1778" y="-678"/>
+            <point key="canvasLocation" x="3851" y="90"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4jA-DU-fIw">
             <objects>
-                <viewController id="b3E-wv-Gm7" customClass="ViewController" customModule="journalEntries" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="b3E-wv-Gm7" customClass="ViewController" customModule="WordsGoingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xiu-iP-qTr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -901,10 +935,11 @@ Go to Graduation!</string>
                         <viewLayoutGuide key="safeArea" id="Lc9-dB-M69"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ahA-n7-whj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IQ2-tU-FYL" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2604" y="-423"/>
+            <point key="canvasLocation" x="542" y="757"/>
         </scene>
     </scenes>
     <resources>
