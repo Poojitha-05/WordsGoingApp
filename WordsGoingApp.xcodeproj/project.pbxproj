@@ -14,6 +14,7 @@
 		BD5B4E4128872A50004275B7 /* WordsGoingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD5B4E3F28872A50004275B7 /* WordsGoingApp.xcdatamodeld */; };
 		BD5B4E4328872A52004275B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5B4E4228872A52004275B7 /* Assets.xcassets */; };
 		BD5B4E4628872A52004275B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5B4E4428872A52004275B7 /* LaunchScreen.storyboard */; };
+		BD9425D728889D6F001B58F5 /* SeniorQuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9425D628889D6F001B58F5 /* SeniorQuotesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BD5B4E4228872A52004275B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD5B4E4528872A52004275B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD5B4E4728872A52004275B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9425D628889D6F001B58F5 /* SeniorQuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorQuotesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				BD5B4E3628872A50004275B7 /* AppDelegate.swift */,
 				BD5B4E3828872A50004275B7 /* SceneDelegate.swift */,
 				BD5B4E3A28872A50004275B7 /* ViewController.swift */,
+				BD9425D628889D6F001B58F5 /* SeniorQuotesViewController.swift */,
 				BD5B4E3C28872A50004275B7 /* Main.storyboard */,
 				BD5B4E4228872A52004275B7 /* Assets.xcassets */,
 				BD5B4E4428872A52004275B7 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9425D728889D6F001B58F5 /* SeniorQuotesViewController.swift in Sources */,
 				BD5B4E3B28872A50004275B7 /* ViewController.swift in Sources */,
 				BD5B4E3728872A50004275B7 /* AppDelegate.swift in Sources */,
 				BD5B4E4128872A50004275B7 /* WordsGoingApp.xcdatamodeld in Sources */,
