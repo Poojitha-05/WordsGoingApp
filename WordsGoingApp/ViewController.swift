@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         lavenderImage.alpha = 0.4
         lavenderImage2.alpha = 0.4
     }
-    
+    // you are cool
 
 }
 
