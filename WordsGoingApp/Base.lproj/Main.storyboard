@@ -509,7 +509,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="5nc-dj-cOL" kind="show" id="uQ5-6G-zbo"/>
+                                    <segue destination="zf7-nN-zEv" kind="show" id="fux-h3-WKI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAB-nR-7ic">
@@ -944,29 +944,10 @@ Go to Graduation!</string>
             </objects>
             <point key="canvasLocation" x="542" y="757"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="eXN-Fz-5Cc">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5nc-dj-cOL" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="HZ7-NU-y6y"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="13H-pp-XEC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Xic-RO-vqS" kind="show" id="JK2-7K-b67"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cuX-tN-39b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1920" y="-715"/>
-        </scene>
         <!--Senior Bucket List-->
         <scene sceneID="nmb-az-9hd">
             <objects>
-                <tableViewController id="Xic-RO-vqS" customClass="ToDoTableViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController modalPresentationStyle="fullScreen" id="Xic-RO-vqS" customClass="ToDoTableViewController" customModule="WordsGoingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="itb-Zf-7og">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -980,7 +961,7 @@ Go to Graduation!</string>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="thf-t4-3bE">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="thf-t4-3bE" id="oWh-oU-t8I">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="thf-t4-3bE" id="oWh-oU-t8I" customClass="To">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <color key="backgroundColor" red="0.78616720439999999" green="0.77887344359999999" blue="0.944691956" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1006,12 +987,12 @@ Go to Graduation!</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lca-tk-hkC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2691" y="-715"/>
+            <point key="canvasLocation" x="3600.0000000000005" y="-715.17857142857144"/>
         </scene>
         <!--Add To Do View Controller-->
         <scene sceneID="Cof-CZ-8LG">
             <objects>
-                <viewController id="Lp7-fY-cxz" customClass="AddToDoViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Lp7-fY-cxz" customClass="AddToDoViewController" customModule="WordsGoingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AH2-ST-OmR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1060,12 +1041,12 @@ Go to Graduation!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y9V-r2-c2X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3528" y="-715"/>
+            <point key="canvasLocation" x="4437.68115942029" y="-715.17857142857144"/>
         </scene>
         <!--Complete To Do View Controller-->
         <scene sceneID="KOG-8s-HgG">
             <objects>
-                <viewController id="asz-Np-mF6" customClass="CompleteToDoViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="asz-Np-mF6" customClass="CompleteToDoViewController" customModule="WordsGoingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fSt-tM-LTF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1102,6 +1083,25 @@ Go to Graduation!</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fOV-hM-41a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2690" y="-1468"/>
+        </scene>
+        <!--Senior Bucket List-->
+        <scene sceneID="D0d-12-xht">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="zf7-nN-zEv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Senior Bucket List" id="F05-7U-6wc"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iXv-ld-1io">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Xic-RO-vqS" kind="relationship" relationship="rootViewController" id="ZuR-sA-VRC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gf3-7L-TOU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2689.8550724637685" y="-715.17857142857144"/>
         </scene>
     </scenes>
     <resources>
