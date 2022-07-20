@@ -1,5 +1,5 @@
 //
-//  SeniorQuotesViewController.swift
+//  PackagePageViewController.swift
 //  WordsGoingApp
 //
 //  Created by Scholar on 7/20/22.
@@ -7,12 +7,11 @@
 
 import UIKit
 
-class SeniorQuotesViewController: UIViewController {
+class PackagePageViewController: UIViewController {
 
-  
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
     }
     

@@ -1,5 +1,5 @@
 //
-//  SeniorQuotesViewController.swift
+//  JournalEntryViewController.swift
 //  WordsGoingApp
 //
 //  Created by Scholar on 7/20/22.
@@ -7,15 +7,17 @@
 
 import UIKit
 
-class SeniorQuotesViewController: UIViewController {
-
-  
+class JournalEntryViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        titleForJournal.text = ""
+        textBox.text = ""
         // Do any additional setup after loading the view.
-    }
-    
+}
+    @IBOutlet weak var textBox: UITextView!
+    @IBOutlet weak var titleForJournal: UITextField!
+
+
 
     /*
     // MARK: - Navigation

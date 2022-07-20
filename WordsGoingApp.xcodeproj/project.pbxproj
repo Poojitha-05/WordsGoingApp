@@ -15,6 +15,9 @@
 		BD5B4E4328872A52004275B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5B4E4228872A52004275B7 /* Assets.xcassets */; };
 		BD5B4E4628872A52004275B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5B4E4428872A52004275B7 /* LaunchScreen.storyboard */; };
 		BD9425D728889D6F001B58F5 /* SeniorQuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9425D628889D6F001B58F5 /* SeniorQuotesViewController.swift */; };
+		BDA2A9D92888A66B00A3B0A0 /* PackagePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2A9D82888A66B00A3B0A0 /* PackagePageViewController.swift */; };
+		BDA2A9DB2888A67B00A3B0A0 /* NavigatorPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2A9DA2888A67B00A3B0A0 /* NavigatorPageViewController.swift */; };
+		BDA2A9DD2888A6B400A3B0A0 /* JournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2A9DC2888A6B400A3B0A0 /* JournalEntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		BD5B4E4528872A52004275B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD5B4E4728872A52004275B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD9425D628889D6F001B58F5 /* SeniorQuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorQuotesViewController.swift; sourceTree = "<group>"; };
+		BDA2A9D82888A66B00A3B0A0 /* PackagePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagePageViewController.swift; sourceTree = "<group>"; };
+		BDA2A9DA2888A67B00A3B0A0 /* NavigatorPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorPageViewController.swift; sourceTree = "<group>"; };
+		BDA2A9DC2888A6B400A3B0A0 /* JournalEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,9 @@
 				BD5B4E3A28872A50004275B7 /* ViewController.swift */,
 				BD9425D628889D6F001B58F5 /* SeniorQuotesViewController.swift */,
 				BD5B4E3C28872A50004275B7 /* Main.storyboard */,
+				BDA2A9DC2888A6B400A3B0A0 /* JournalEntryViewController.swift */,
+				BDA2A9DA2888A67B00A3B0A0 /* NavigatorPageViewController.swift */,
+				BDA2A9D82888A66B00A3B0A0 /* PackagePageViewController.swift */,
 				BD5B4E4228872A52004275B7 /* Assets.xcassets */,
 				BD5B4E4428872A52004275B7 /* LaunchScreen.storyboard */,
 				BD5B4E4728872A52004275B7 /* Info.plist */,
@@ -146,8 +155,11 @@
 			files = (
 				BD9425D728889D6F001B58F5 /* SeniorQuotesViewController.swift in Sources */,
 				BD5B4E3B28872A50004275B7 /* ViewController.swift in Sources */,
+				BDA2A9D92888A66B00A3B0A0 /* PackagePageViewController.swift in Sources */,
 				BD5B4E3728872A50004275B7 /* AppDelegate.swift in Sources */,
 				BD5B4E4128872A50004275B7 /* WordsGoingApp.xcdatamodeld in Sources */,
+				BDA2A9DB2888A67B00A3B0A0 /* NavigatorPageViewController.swift in Sources */,
+				BDA2A9DD2888A6B400A3B0A0 /* JournalEntryViewController.swift in Sources */,
 				BD5B4E3928872A50004275B7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
