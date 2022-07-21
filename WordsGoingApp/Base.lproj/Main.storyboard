@@ -114,14 +114,11 @@
                         <viewLayoutGuide key="safeArea" id="gHl-Zs-CZA"/>
                         <color key="backgroundColor" red="0.9098039269" green="0.85882353779999998" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <connections>
-                        <outlet property="lavenderImage" destination="cnl-WG-A6R" id="GZB-jR-Yo2"/>
-                        <outlet property="lavenderImage2" destination="J0l-mP-A3A" id="YbI-Ue-GGa"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="suQ-1j-qOB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bcu-kK-h97" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-259" y="71"/>
+            <point key="canvasLocation" x="650.72463768115949" y="70.982142857142847"/>
         </scene>
         <!--Senior Quotes View Controller-->
         <scene sceneID="3G1-OC-jqk">
@@ -330,6 +327,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6c-9D-HrB">
+                                <rect key="frame" x="318" y="56" width="56" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="jqZ-Mv-9k1" kind="show" id="56w-0y-DrM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="k7h-vM-n6k"/>
                         <color key="backgroundColor" red="0.9098039269" green="0.85882353779999998" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -495,7 +501,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="b3E-wv-Gm7" kind="show" id="kIh-Ec-h29"/>
+                                    <segue destination="b3E-wv-Gm7" kind="show" id="jIy-Oc-NeH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6H-FW-eoc">
@@ -529,7 +535,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="CBr-rM-l8f" kind="show" id="hHT-Wo-u36"/>
+                                    <segue destination="CBr-rM-l8f" kind="show" id="dQd-rx-ioZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPH-zV-J7K">
@@ -554,9 +560,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="64d2123d6004907e4341236390ef5b64-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="ZzR-8i-pJ7">
-                                <rect key="frame" x="-4" y="349" width="268" height="450"/>
+                                <rect key="frame" x="-16" y="377" width="268" height="450"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPu-q5-LT4">
+                                <rect key="frame" x="309" y="51" width="63" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.20000001789999999" green="0.19607841970000001" blue="0.19215688110000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <connections>
+                                    <segue destination="CtN-u5-I0C" kind="showDetail" id="Hkd-k9-wz1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="l9f-iI-cdS"/>
                         <color key="backgroundColor" red="0.9098039269" green="0.86274516580000005" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -570,7 +586,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Awr-70-R4J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1286.9565217391305" y="70.982142857142847"/>
+            <point key="canvasLocation" x="2197.1014492753625" y="70.982142857142847"/>
         </scene>
         <!--Package Page View Controller-->
         <scene sceneID="CK7-PN-egg">
@@ -680,6 +696,13 @@
                                     <segue destination="jqZ-Mv-9k1" kind="show" id="SXN-c0-IPN"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Yp-L1-ACc">
+                                <rect key="frame" x="322" y="44" width="56" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.20000001789999999" green="0.19607841970000001" blue="0.19215688110000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1Pp-8d-u6o"/>
                         <color key="backgroundColor" red="0.9098039269" green="0.86274516580000005" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -692,7 +715,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dfc-Ti-m2N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="543" y="71"/>
+            <point key="canvasLocation" x="1452.1739130434785" y="70.982142857142847"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mlO-I9-PEn">
@@ -743,6 +766,15 @@
                                     <segue destination="YeM-3c-Qbr" kind="show" id="R3Z-8s-jCb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOs-GM-7rF">
+                                <rect key="frame" x="333" y="53" width="56" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="jqZ-Mv-9k1" kind="show" id="DKo-dr-PdG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YSn-pN-Hr3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -751,7 +783,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N3I-tH-EpU" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2333" y="91"/>
+            <point key="canvasLocation" x="3242.0289855072465" y="90.401785714285708"/>
         </scene>
         <!--View Controllerpagetwo-->
         <scene sceneID="xAA-iH-yK8">
@@ -830,7 +862,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aJP-CA-KcI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3109" y="90"/>
+            <point key="canvasLocation" x="4018.8405797101454" y="89.732142857142847"/>
         </scene>
         <!--Journal Entry View Controller-->
         <scene sceneID="wU3-Kp-ZLg">
@@ -867,7 +899,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gD8-VI-QGB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3851" y="90"/>
+            <point key="canvasLocation" x="4760.8695652173919" y="89.732142857142847"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4jA-DU-fIw">
@@ -937,6 +969,15 @@ Go to Graduation!</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dt-bf-AnX">
+                                <rect key="frame" x="322" y="60" width="56" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="jqZ-Mv-9k1" kind="show" id="lPR-aK-3NA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Lc9-dB-M69"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -945,7 +986,23 @@ Go to Graduation!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IQ2-tU-FYL" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="542" y="757"/>
+            <point key="canvasLocation" x="540.57971014492762" y="756.69642857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VsA-E8-pY2">
+            <objects>
+                <viewController id="1yP-fz-39p" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Ho-N7-qk4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="QJN-Sz-sOU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ibc-t8-eCS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gFi-Lw-mlF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7685" y="-1566"/>
         </scene>
         <!--Senior Bucket List-->
         <scene sceneID="nmb-az-9hd">
@@ -979,6 +1036,17 @@ Go to Graduation!</string>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Senior Bucket List" id="jCo-Ll-HIM">
+                        <barButtonItem key="leftBarButtonItem" title="Back" style="plain" id="pp9-dZ-aeC">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="eSD-GZ-zWL">
+                                <rect key="frame" x="20" y="12.5" width="92" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="jqZ-Mv-9k1" kind="show" id="qEN-4J-esV"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="KYR-2i-4b3">
                             <color key="tintColor" systemColor="systemIndigoColor"/>
                             <connections>
@@ -1251,6 +1319,15 @@ Go to Graduation!</string>
                                             <action selector="changeImg6:" destination="jDb-ZZ-fqA" eventType="touchUpInside" id="o6C-yh-0Gm"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATO-EK-xqf">
+                                        <rect key="frame" x="345" y="20" width="56" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                        <connections>
+                                            <segue destination="jqZ-Mv-9k1" kind="show" id="G9w-WL-rfB"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="0.1640107616" colorSpace="custom" customColorSpace="sRGB"/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="Xwm-tg-aDz"/>
@@ -1278,6 +1355,8 @@ Go to Graduation!</string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="GeQ-CT-6mJ"/>
+        <segue reference="Hkd-k9-wz1"/>
+        <segue reference="qEN-4J-esV"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="5-53347_flower-vintage-flowers-garden-brown-gold-nature-free-removebg-preview" width="498" height="501"/>
