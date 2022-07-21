@@ -570,7 +570,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Home"/>
                                 <connections>
-                                    <segue destination="CtN-u5-I0C" kind="showDetail" id="Hkd-k9-wz1"/>
+                                    <segue destination="CtN-u5-I0C" kind="show" id="86R-l2-6eo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1037,7 +1037,7 @@ Go to Graduation!</string>
                     </tableView>
                     <navigationItem key="navigationItem" title="Senior Bucket List" id="jCo-Ll-HIM">
                         <barButtonItem key="leftBarButtonItem" title="Back" style="plain" id="pp9-dZ-aeC">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="eSD-GZ-zWL">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="eSD-GZ-zWL">
                                 <rect key="frame" x="20" y="11" width="92" height="34.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -1354,8 +1354,9 @@ Go to Graduation!</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="dQd-rx-ioZ"/>
         <segue reference="GeQ-CT-6mJ"/>
-        <segue reference="Hkd-k9-wz1"/>
+        <segue reference="86R-l2-6eo"/>
         <segue reference="DKo-dr-PdG"/>
     </inferredMetricsTieBreakers>
     <resources>
