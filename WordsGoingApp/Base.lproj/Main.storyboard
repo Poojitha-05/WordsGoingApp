@@ -978,11 +978,14 @@ Go to Graduation!</string>
                     <navigationItem key="navigationItem" title="Senior Bucket List" id="jCo-Ll-HIM">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="KYR-2i-4b3">
                             <color key="tintColor" systemColor="systemIndigoColor"/>
+                            <connections>
+                                <segue destination="Lp7-fY-cxz" kind="show" id="GeQ-CT-6mJ"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <segue destination="Lp7-fY-cxz" kind="show" id="wbf-69-B2U"/>
-                        <segue destination="asz-Np-mF6" kind="show" id="cKz-uw-hUd"/>
+                        <segue destination="asz-Np-mF6" kind="show" identifier="moveToComplete" id="cKz-uw-hUd"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lca-tk-hkC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1104,6 +1107,9 @@ Go to Graduation!</string>
             <point key="canvasLocation" x="2689.8550724637685" y="-715.17857142857144"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="GeQ-CT-6mJ"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="5-53347_flower-vintage-flowers-garden-brown-gold-nature-free-removebg-preview" width="498" height="501"/>
         <image name="64d2123d6004907e4341236390ef5b64-removebg-preview" width="386" height="646"/>
