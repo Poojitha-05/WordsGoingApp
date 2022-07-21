@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD5321BB2889B7A4003B13EC /* PhotoWallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5321BA2889B7A4003B13EC /* PhotoWallView.swift */; };
 		BD5B4E3728872A50004275B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B4E3628872A50004275B7 /* AppDelegate.swift */; };
 		BD5B4E3928872A50004275B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B4E3828872A50004275B7 /* SceneDelegate.swift */; };
 		BD5B4E3B28872A50004275B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B4E3A28872A50004275B7 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD5321BA2889B7A4003B13EC /* PhotoWallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoWallView.swift; sourceTree = "<group>"; };
 		BD5B4E3328872A50004275B7 /* WordsGoingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordsGoingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5B4E3628872A50004275B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD5B4E3828872A50004275B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		BD5B4E3528872A50004275B7 /* WordsGoingApp */ = {
 			isa = PBXGroup;
 			children = (
+				BD5321BA2889B7A4003B13EC /* PhotoWallView.swift */,
 				BDB310442888C25E00B03D49 /* ToDo.swift */,
 				BDB310462888C2B000B03D49 /* ToDoTableViewController.swift */,
 				BDB310482888C2CE00B03D49 /* AddToDoViewController.swift */,
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5321BB2889B7A4003B13EC /* PhotoWallView.swift in Sources */,
 				BDB310452888C25E00B03D49 /* ToDo.swift in Sources */,
 				BD9425D728889D6F001B58F5 /* SeniorQuotesViewController.swift in Sources */,
 				BD5B4E3B28872A50004275B7 /* ViewController.swift in Sources */,
