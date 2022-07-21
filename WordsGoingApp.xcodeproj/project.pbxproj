@@ -23,6 +23,7 @@
 		BDB310472888C2B000B03D49 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB310462888C2B000B03D49 /* ToDoTableViewController.swift */; };
 		BDB310492888C2CE00B03D49 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB310482888C2CE00B03D49 /* AddToDoViewController.swift */; };
 		BDB3104B2888C2EE00B03D49 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB3104A2888C2EE00B03D49 /* CompleteToDoViewController.swift */; };
+		BDE42ADE288A1A1A00BCE3AC /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE42ADD288A1A1A00BCE3AC /* ChecklistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		BDB310462888C2B000B03D49 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		BDB310482888C2CE00B03D49 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 		BDB3104A2888C2EE00B03D49 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
+		BDE42ADD288A1A1A00BCE3AC /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				BD5B4E4428872A52004275B7 /* LaunchScreen.storyboard */,
 				BD5B4E4728872A52004275B7 /* Info.plist */,
 				BD5B4E3F28872A50004275B7 /* WordsGoingApp.xcdatamodeld */,
+				BDE42ADD288A1A1A00BCE3AC /* ChecklistViewController.swift */,
 			);
 			path = WordsGoingApp;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD5321BB2889B7A4003B13EC /* PhotoWallView.swift in Sources */,
+				BDE42ADE288A1A1A00BCE3AC /* ChecklistViewController.swift in Sources */,
 				BDB310452888C25E00B03D49 /* ToDo.swift in Sources */,
 				BD9425D728889D6F001B58F5 /* SeniorQuotesViewController.swift in Sources */,
 				BD5B4E3B28872A50004275B7 /* ViewController.swift in Sources */,

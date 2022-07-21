@@ -1,28 +1,22 @@
 //
-//  SeniorQuotesViewController.swift
+//  ChecklistViewController.swift
 //  WordsGoingApp
 //
-//  Created by Scholar on 7/20/22.
+//  Created by Scholar on 7/21/22.
 //
 
 import UIKit
 
-class SeniorQuotesViewController: UIViewController {
+class ChecklistViewController: UIViewController {
 
-    @IBOutlet weak var lavenderImage: UIImageView!
-    @IBOutlet weak var lavenderImage2: UIImageView!
-    
-    
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        lavenderImage.alpha = 0.4
-        lavenderImage2.alpha = 0.4
+
         // Do any additional setup after loading the view.
     }
-    
     
 
     /*

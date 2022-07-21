@@ -954,10 +954,10 @@
             </objects>
             <point key="canvasLocation" x="4760.8695652173919" y="89.732142857142847"/>
         </scene>
-        <!--View Controller-->
+        <!--Checklist-->
         <scene sceneID="4jA-DU-fIw">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="b3E-wv-Gm7" customClass="ViewController" customModule="WordsGoingApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Checklist" modalPresentationStyle="fullScreen" id="b3E-wv-Gm7" customClass="ChecklistViewController" customModule="WordsGoingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xiu-iP-qTr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -972,13 +972,28 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RzH-2Q-4sI">
-                                <rect key="frame" x="56" y="276" width="296" height="429"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkmark.square" catalog="system" highlightedImage="checkmark.square.fill" translatesAutoresizingMaskIntoConstraints="NO" id="HBX-op-yaj">
+                                <rect key="frame" x="66" y="286" width="29" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkmark.square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="toQ-GL-MiF">
+                                <rect key="frame" x="66" y="476" width="29" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkmark.square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="wqf-iK-6uF">
+                                <rect key="frame" x="66" y="524" width="29" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkmark.square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7rl-pj-FsY">
+                                <rect key="frame" x="66" y="575" width="29" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkmark.square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="D0A-pT-nxR">
+                                <rect key="frame" x="66" y="619" width="29" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G4Z-ul-imp">
-                                <rect key="frame" x="112" y="276" width="240" height="429"/>
+                                <rect key="frame" x="119" y="276" width="233" height="429"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Senior Photos 
@@ -994,42 +1009,6 @@ Go to Graduation!</string>
                                 <fontDescription key="fontDescription" name="NotoSansKannada-Light" family="Noto Sans Kannada" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FqC-aB-yyp">
-                                <rect key="frame" x="75" y="429" width="29" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="kv3-4R-KDo">
-                                <rect key="frame" x="75" y="479" width="29" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Scp-KY-zPW">
-                                <rect key="frame" x="75" y="382" width="29" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="9RT-cp-8oC">
-                                <rect key="frame" x="75" y="526" width="29" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="1fX-ip-9PX">
-                                <rect key="frame" x="75" y="330" width="29" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="wk0-92-OhU">
-                                <rect key="frame" x="75" y="282" width="29" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oUs-G7-sWd">
-                                <rect key="frame" x="75" y="572" width="29" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vv3-pJ-6gB">
-                                <rect key="frame" x="75" y="622" width="29" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oLk-ba-JRH">
-                                <rect key="frame" x="75" y="673" width="29" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pngtree-scrapbook-paper-texture-rustic-and-vintage-for-decoration-background-png-image_6536015-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="WDL-No-wxg">
                                 <rect key="frame" x="11" y="121" width="417" height="156"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1041,6 +1020,22 @@ Go to Graduation!</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkmark.square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bYm-aP-7oD">
+                                <rect key="frame" x="66" y="425" width="29" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkmark.square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="N0M-8p-L3Z">
+                                <rect key="frame" x="66" y="332" width="29" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkmark.square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cdc-zi-PV2">
+                                <rect key="frame" x="66" y="380" width="29" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkmark.square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Wkw-0m-z73">
+                                <rect key="frame" x="66" y="661" width="29" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Lc9-dB-M69"/>
                         <color key="backgroundColor" red="0.9098039269" green="0.86666667460000002" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1543,8 +1538,8 @@ Go to Graduation!</string>
         <image name="64d2123d6004907e4341236390ef5b64-removebg-preview" width="386" height="646"/>
         <image name="HD-wallpaper-brown-cream-aesthetic" width="800" height="1422"/>
         <image name="W-removebg-preview" width="500" height="500"/>
-        <image name="checkmark" catalog="system" width="128" height="114"/>
         <image name="checkmark.square" catalog="system" width="128" height="114"/>
+        <image name="checkmark.square.fill" catalog="system" width="128" height="114"/>
         <image name="chevron.left" catalog="system" width="96" height="128"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="photo.artframe" catalog="system" width="128" height="93"/>
